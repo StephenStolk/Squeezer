@@ -1,3 +1,5 @@
+NOTE: This project is for exploration, and needs testing for the real world. It is being built for personal usage and for learning purpose
+
 # ContextSqueezer
 
 A local, deterministic context-compression proxy for LLM developer agents (Claude Code, Cursor, Aider, LangChain/LangGraph pipelines, multi-agent swarms). It sits between your agent(s) and the model provider, shrinks the outgoing payload using rule-based (zero-ML) techniques, and forwards the compressed request — with a local SQLite fallback so the model can still pull back anything it actually needs.
